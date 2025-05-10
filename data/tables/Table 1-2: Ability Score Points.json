@@ -1,0 +1,6 @@
+[
+  { "Campaign Type": "Low Fantasy", "Points": 10 },
+  { "Campaign Type": "Standard Fantasy", "Points": 15 },
+  { "Campaign Type": "High Fantasy", "Points": 20 },
+  { "Campaign Type": "Epic Fantasy", "Points": 25 }
+]
