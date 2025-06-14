@@ -12,4 +12,4 @@
 - Coins <https://legacy.aonprd.com/corerulebook/equipment.html>
 - Trade Goods <https://legacy.aonprd.com/corerulebook/equipment.html>
 - Tiny and Large Weapon Damage <https://legacy.aonprd.com/corerulebook/equipment.html>
-- 
+- Weapons <https://legacy.aonprd.com/corerulebook/equipment.html>
