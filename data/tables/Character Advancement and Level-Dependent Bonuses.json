@@ -1,0 +1,162 @@
+[
+  {
+    "Character Level": 1,
+    "Experience Point Total Slow": null,
+    "Experience Point Total Medium": null,
+    "Experience Point Total Fast": null,
+    "Feats": 1,
+    "Ability Score": null
+  },
+  {
+    "Character Level": 2,
+    "Experience Point Total Slow": 3000,
+    "Experience Point Total Medium": 2000,
+    "Experience Point Total Fast": 3000,
+    "Feats": null,
+    "Ability Score": null
+  },
+  {
+    "Character Level": 3,
+    "Experience Point Total Slow": 7500,
+    "Experience Point Total Medium": 5000,
+    "Experience Point Total Fast": 7500,
+    "Feats": 2,
+    "Ability Score": null
+  },
+  {
+    "Character Level": 4,
+    "Experience Point Total Slow": 14000,
+    "Experience Point Total Medium": 9000,
+    "Experience Point Total Fast": 14000,
+    "Feats": null,
+    "Ability Score": 1
+  },
+  {
+    "Character Level": 5,
+    "Experience Point Total Slow": 23000,
+    "Experience Point Total Medium": 15000,
+    "Experience Point Total Fast": 23000,
+    "Feats": 3,
+    "Ability Score": null
+  },
+  {
+    "Character Level": 6,
+    "Experience Point Total Slow": 35000,
+    "Experience Point Total Medium": 23000,
+    "Experience Point Total Fast": 35000,
+    "Feats": null,
+    "Ability Score": null
+  },
+  {
+    "Character Level": 7,
+    "Experience Point Total Slow": 53000,
+    "Experience Point Total Medium": 35000,
+    "Experience Point Total Fast": 53000,
+    "Feats": 4,
+    "Ability Score": null
+  },
+  {
+    "Character Level": 8,
+    "Experience Point Total Slow": 77000,
+    "Experience Point Total Medium": 51000,
+    "Experience Point Total Fast": 77000,
+    "Feats": null,
+    "Ability Score": 2
+  },
+  {
+    "Character Level": 9,
+    "Experience Point Total Slow": 115000,
+    "Experience Point Total Medium": 75000,
+    "Experience Point Total Fast": 115000,
+    "Feats": 5,
+    "Ability Score": null
+  },
+  {
+    "Character Level": 10,
+    "Experience Point Total Slow": 160000,
+    "Experience Point Total Medium": 105000,
+    "Experience Point Total Fast": 160000,
+    "Feats": null,
+    "Ability Score": null
+  },
+  {
+    "Character Level": 11,
+    "Experience Point Total Slow": 235000,
+    "Experience Point Total Medium": 155000,
+    "Experience Point Total Fast": 235000,
+    "Feats": 6,
+    "Ability Score": null
+  },
+  {
+    "Character Level": 12,
+    "Experience Point Total Slow": 330000,
+    "Experience Point Total Medium": 220000,
+    "Experience Point Total Fast": 330000,
+    "Feats": null,
+    "Ability Score": 3
+  },
+  {
+    "Character Level": 13,
+    "Experience Point Total Slow": 475000,
+    "Experience Point Total Medium": 315000,
+    "Experience Point Total Fast": 475000,
+    "Feats": 7,
+    "Ability Score": null
+  },
+  {
+    "Character Level": 14,
+    "Experience Point Total Slow": 665000,
+    "Experience Point Total Medium": 445000,
+    "Experience Point Total Fast": 665000,
+    "Feats": null,
+    "Ability Score": null
+  },
+  {
+    "Character Level": 15,
+    "Experience Point Total Slow": 955000,
+    "Experience Point Total Medium": 635000,
+    "Experience Point Total Fast": 955000,
+    "Feats": 8,
+    "Ability Score": null
+  },
+  {
+    "Character Level": 16,
+    "Experience Point Total Slow": 1350000,
+    "Experience Point Total Medium": 890000,
+    "Experience Point Total Fast": 1350000,
+    "Feats": null,
+    "Ability Score": 4
+  },
+  {
+    "Character Level": 17,
+    "Experience Point Total Slow": 1900000,
+    "Experience Point Total Medium": 1300000,
+    "Experience Point Total Fast": 1900000,
+    "Feats": 9,
+    "Ability Score": null
+  },
+  {
+    "Character Level": 18,
+    "Experience Point Total Slow": 2700000,
+    "Experience Point Total Medium": 1800000,
+    "Experience Point Total Fast": 2700000,
+    "Feats": null,
+    "Ability Score": null
+  },
+  {
+    "Character Level": 19,
+    "Experience Point Total Slow": 3850000,
+    "Experience Point Total Medium": 2550000,
+    "Experience Point Total Fast": 3850000,
+    "Feats": 10,
+    "Ability Score": null
+  },
+  {
+    "Character Level": 20,
+    "Experience Point Total Slow": 5350000,
+    "Experience Point Total Medium": 3600000,
+    "Experience Point Total Fast": 5350000,
+    "Feats": null,
+    "Ability Score": 5
+  }
+]

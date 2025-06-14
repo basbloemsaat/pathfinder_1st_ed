@@ -1,0 +1,888 @@
+[
+  {
+    "Feats": "Acrobatic",
+    "Prerequisites": "—",
+    "Benefits": "+2 bonus on Acrobatics and Fly checks"
+  },
+  {
+    "Feats": "Agile Maneuvers*",
+    "Prerequisites": "—",
+    "Benefits": "Use your Dex bonus when calculating your CMB"
+  },
+  {
+    "Feats": "Alertness",
+    "Prerequisites": "—",
+    "Benefits": "+2 bonus on Perception and Sense Motive checks"
+  },
+  {
+    "Feats": "Alignment Channel",
+    "Prerequisites": "Channel energy class feature",
+    "Benefits": "Channel energy can heal or harm outsiders"
+  },
+  {
+    "Feats": "Animal Affinity",
+    "Prerequisites": "—",
+    "Benefits": "+2 bonus on Handle Animal and Ride checks"
+  },
+  {
+    "Feats": "Arcane Armor Training*",
+    "Prerequisites": "Armor Proficiency, Light, caster level 3rd",
+    "Benefits": "Reduce your arcane spell failure chance by 10%"
+  },
+  {
+    "Feats": "Arcane Armor Mastery*",
+    "Prerequisites": "Arcane Armor Training, Armor Proficiency, Medium, caster level 7th",
+    "Benefits": "Reduce your arcane spell failure chance by 20%"
+  },
+  {
+    "Feats": "Arcane Strike*",
+    "Prerequisites": "Ability to cast arcane spells",
+    "Benefits": "+1 damage and weapons are considered magic"
+  },
+  {
+    "Feats": "Armor Proficiency, Light",
+    "Prerequisites": "—",
+    "Benefits": "No penalties on attack rolls while wearing light armor"
+  },
+  {
+    "Feats": "Armor Proficiency, Medium",
+    "Prerequisites": "Armor Proficiency, Light",
+    "Benefits": "No penalties on attack rolls while wearing medium armor"
+  },
+  {
+    "Feats": "Armor Proficiency, Heavy",
+    "Prerequisites": "Armor Proficiency, Medium",
+    "Benefits": "No penalties on attack rolls while wearing heavy armor"
+  },
+  {
+    "Feats": "Athletic",
+    "Prerequisites": "—",
+    "Benefits": "+2 bonus on Climb and Swim checks"
+  },
+  {
+    "Feats": "Augment Summoning",
+    "Prerequisites": "Spell Focus (conjuration)",
+    "Benefits": "Summoned creatures gain +4 Str and Con"
+  },
+  {
+    "Feats": "Blind-Fight*",
+    "Prerequisites": "—",
+    "Benefits": "Reroll miss chances for concealment"
+  },
+  {
+    "Feats": "Catch Off-Guard*",
+    "Prerequisites": "—",
+    "Benefits": "No penalties for improvised melee weapons"
+  },
+  {
+    "Feats": "Channel Smite*",
+    "Prerequisites": "Channel energy class feature",
+    "Benefits": "Channel energy through your attack"
+  },
+  {
+    "Feats": "Combat Casting",
+    "Prerequisites": "—",
+    "Benefits": "+4 bonus on concentration checks for casting defensively"
+  },
+  {
+    "Feats": "Combat Expertise*",
+    "Prerequisites": "Int 13",
+    "Benefits": "Trade attack bonus for AC bonus"
+  },
+  {
+    "Feats": "Improved Disarm*",
+    "Prerequisites": "Combat Expertise",
+    "Benefits": "+2 bonus on disarm attempts, no attack of opportunity"
+  },
+  {
+    "Feats": "Greater Disarm*",
+    "Prerequisites": "Improved Disarm, base attack bonus +6",
+    "Benefits": "Disarmed weapons are knocked away from your enemy"
+  },
+  {
+    "Feats": "Improved Feint*",
+    "Prerequisites": "Combat Expertise",
+    "Benefits": "Feint as a move action"
+  },
+  {
+    "Feats": "Greater Feint*",
+    "Prerequisites": "Improved Feint, base attack bonus +6",
+    "Benefits": "Enemies you feint lose their Dex bonus for 1 round"
+  },
+  {
+    "Feats": "Improved Trip*",
+    "Prerequisites": "Combat Expertise",
+    "Benefits": "+2 bonus on trip attempts, no attack of opportunity"
+  },
+  {
+    "Feats": "Greater Trip*",
+    "Prerequisites": "Improved Trip, base attack bonus +6",
+    "Benefits": "Enemies you trip provoke attacks of opportunity"
+  },
+  {
+    "Feats": "Whirlwind Attack*",
+    "Prerequisites": "Dex 13, Combat Expertise, Spring Attack, base attack bonus +4",
+    "Benefits": "Make one melee attack against all foes within reach"
+  },
+  {
+    "Feats": "Combat Reflexes*",
+    "Prerequisites": "—",
+    "Benefits": "Make additional attacks of opportunity"
+  },
+  {
+    "Feats": "Stand Still*",
+    "Prerequisites": "Combat Reflexes",
+    "Benefits": "Stop enemies from moving past you"
+  },
+  {
+    "Feats": "Command Undead",
+    "Prerequisites": "Channel negative energy class feature",
+    "Benefits": "Channel energy can be used to control undead"
+  },
+  {
+    "Feats": "Critical Focus*",
+    "Prerequisites": "Base attack bonus +9",
+    "Benefits": "+4 bonus on attack rolls made to confirm critical hits"
+  },
+  {
+    "Feats": "Bleeding Critical*",
+    "Prerequisites": "Critical Focus, base attack bonus +11",
+    "Benefits": "Whenever you score a critical hit, the target takes 2d6 bleed"
+  },
+  {
+    "Feats": "Blinding Critical*",
+    "Prerequisites": "Critical Focus, base attack bonus +15",
+    "Benefits": "Whenever you score a critical hit, the target is blinded"
+  },
+  {
+    "Feats": "Critical Mastery*",
+    "Prerequisites": "Any two critical feats, 14th-level fighter",
+    "Benefits": "Apply two effects to your critical hits"
+  },
+  {
+    "Feats": "Deafening Critical*",
+    "Prerequisites": "Critical Focus, base attack bonus +13",
+    "Benefits": "Whenever you score a critical hit, the target is deafened"
+  },
+  {
+    "Feats": "Sickening Critical*",
+    "Prerequisites": "Critical Focus, base attack bonus +11",
+    "Benefits": "Whenever you score a critical hit, the target is sickened"
+  },
+  {
+    "Feats": "Staggering Critical*",
+    "Prerequisites": "Critical Focus, base attack bonus +13",
+    "Benefits": "Whenever you score a critical hit, the target is staggered"
+  },
+  {
+    "Feats": "Stunning Critical*",
+    "Prerequisites": "Staggering Critical, base attack bonus +17",
+    "Benefits": "Whenever you score a critical hit, the target is stunned"
+  },
+  {
+    "Feats": "Tiring Critical*",
+    "Prerequisites": "Critical Focus, base attack bonus +13",
+    "Benefits": "Whenever you score a critical hit, the target is fatigued"
+  },
+  {
+    "Feats": "Exhausting Critical*",
+    "Prerequisites": "Tiring Critical, base attack bonus +15",
+    "Benefits": "Whenever you score a critical hit, the target is exhausted"
+  },
+  {
+    "Feats": "Deadly Aim*",
+    "Prerequisites": "Dex 13, base attack bonus +1",
+    "Benefits": "Trade ranged attack bonus for damage"
+  },
+  {
+    "Feats": "Deceitful",
+    "Prerequisites": "—",
+    "Benefits": "+2 bonus on Bluff and Disguise checks"
+  },
+  {
+    "Feats": "Defensive Combat Training*",
+    "Prerequisites": "—",
+    "Benefits": "Use your total Hit Dice as your base attack bonus for CMD"
+  },
+  {
+    "Feats": "Deft Hands",
+    "Prerequisites": "—",
+    "Benefits": "+2 bonus on Disable Device and Sleight of Hand checks"
+  },
+  {
+    "Feats": "Disruptive*",
+    "Prerequisites": "6th-level fighter",
+    "Benefits": "Increases the DC to cast spells adjacent to you"
+  },
+  {
+    "Feats": "Spellbreaker*",
+    "Prerequisites": "Disruptive, 10th-level fighter",
+    "Benefits": "Enemies provoke attacks if their spells fail"
+  },
+  {
+    "Feats": "Dodge*",
+    "Prerequisites": "Dex 13",
+    "Benefits": "+1 dodge bonus to AC"
+  },
+  {
+    "Feats": "Mobility*",
+    "Prerequisites": "Dodge",
+    "Benefits": "+4 AC against attacks of opportunity from movement"
+  },
+  {
+    "Feats": "Spring Attack*",
+    "Prerequisites": "Mobility, base attack bonus +4",
+    "Benefits": "Move before and after melee attack"
+  },
+  {
+    "Feats": "Wind Stance*",
+    "Prerequisites": "Dex 15, Dodge, base attack bonus +6",
+    "Benefits": "Gain 20% concealment if you move"
+  },
+  {
+    "Feats": "Lightning Stance*",
+    "Prerequisites": "Dex 17, Wind Stance, base attack bonus +11",
+    "Benefits": "Gain 50% concealment if you move"
+  },
+  {
+    "Feats": "Elemental Channel",
+    "Prerequisites": "Channel energy class feature",
+    "Benefits": "Channel energy can harm or heal elementals"
+  },
+  {
+    "Feats": "Endurance",
+    "Prerequisites": "—",
+    "Benefits": "+4 bonus on checks to avoid nonlethal damage"
+  },
+  {
+    "Feats": "Diehard",
+    "Prerequisites": "Endurance",
+    "Benefits": "Automatically stabilize and remain conscious below 0 hp"
+  },
+  {
+    "Feats": "Eschew Materials",
+    "Prerequisites": "—",
+    "Benefits": "Cast spells without material components"
+  },
+  {
+    "Feats": "Exotic Weapon Proficiency*",
+    "Prerequisites": "Base attack bonus +1",
+    "Benefits": "No penalty on attacks made with one exotic weapon"
+  },
+  {
+    "Feats": "Extra Channel",
+    "Prerequisites": "Channel energy class feature",
+    "Benefits": "Channel energy two additional times per day"
+  },
+  {
+    "Feats": "Extra Ki",
+    "Prerequisites": "Ki pool class feature",
+    "Benefits": "Increase your ki pool by 2 points"
+  },
+  {
+    "Feats": "Extra Lay On Hands",
+    "Prerequisites": "Lay on hands class feature",
+    "Benefits": "Use lay on hands two additional times per day"
+  },
+  {
+    "Feats": "Extra Mercy",
+    "Prerequisites": "Mercy class feature",
+    "Benefits": "Your lay on hands benefits from one additional mercy"
+  },
+  {
+    "Feats": "Extra Performance",
+    "Prerequisites": "Bardic performance class feature",
+    "Benefits": "Use bardic performance for 6 additional rounds per day"
+  },
+  {
+    "Feats": "Extra Rage",
+    "Prerequisites": "Rage class feature",
+    "Benefits": "Use rage for 6 additional rounds per day"
+  },
+  {
+    "Feats": "Fleet",
+    "Prerequisites": "—",
+    "Benefits": "Your base speed increases by 5 feet"
+  },
+  {
+    "Feats": "Great Fortitude",
+    "Prerequisites": "—",
+    "Benefits": "+2 on Fortitude saves"
+  },
+  {
+    "Feats": "Improved Great Fortitude",
+    "Prerequisites": "Great Fortitude",
+    "Benefits": "Once per day, you may reroll a Fortitude save"
+  },
+  {
+    "Feats": "Improved Channel",
+    "Prerequisites": "Channel energy class feature",
+    "Benefits": "+2 bonus on channel energy DC"
+  },
+  {
+    "Feats": "Improved Counterspell",
+    "Prerequisites": "—",
+    "Benefits": "Counterspell with spell of the same school"
+  },
+  {
+    "Feats": "Improved Critical*",
+    "Prerequisites": "Proficiency with weapon, base attack bonus +8",
+    "Benefits": "Double the threat range of one weapon"
+  },
+  {
+    "Feats": "Improved Familiar",
+    "Prerequisites": "Ability to acquire a familiar, see feat",
+    "Benefits": "Gain a more powerful familiar"
+  },
+  {
+    "Feats": "Improved Initiative*",
+    "Prerequisites": "—",
+    "Benefits": "+4 bonus on initiative checks"
+  },
+  {
+    "Feats": "Improved Unarmed Strike*",
+    "Prerequisites": "—",
+    "Benefits": "Always considered armed"
+  },
+  {
+    "Feats": "Deflect Arrows*",
+    "Prerequisites": "Dex 13, Improved Unarmed Strike",
+    "Benefits": "Avoid one ranged attack per round"
+  },
+  {
+    "Feats": "Snatch Arrows*",
+    "Prerequisites": "Dex 15, Deflect Arrows",
+    "Benefits": "Catch one ranged attack per round"
+  },
+  {
+    "Feats": "Improved Grapple*",
+    "Prerequisites": "Dex 13, Improved Unarmed Strike",
+    "Benefits": "+2 bonus on grapple attempts, no attack of opportunity"
+  },
+  {
+    "Feats": "Greater Grapple*",
+    "Prerequisites": "Improved Grapple, base attack bonus +6",
+    "Benefits": "Maintain your grapple as a move action"
+  },
+  {
+    "Feats": "Scorpion Style*",
+    "Prerequisites": "Improved Unarmed Strike",
+    "Benefits": "Reduce target's speed to 5 ft."
+  },
+  {
+    "Feats": "Gorgon's Fist*",
+    "Prerequisites": "Scorpion Style, base attack bonus +6",
+    "Benefits": "Stagger a foe whose speed is reduced"
+  },
+  {
+    "Feats": "Medusa's Wrath*",
+    "Prerequisites": "Gorgon's Fist, base attack bonus +11",
+    "Benefits": "Make 2 extra attacks against a hindered foe"
+  },
+  {
+    "Feats": "Stunning Fist*",
+    "Prerequisites": "Dex 13, Wis 13, Improved Unarmed Strike, base attack bonus +8",
+    "Benefits": "Stun opponent with an unarmed strike"
+  },
+  {
+    "Feats": "Improvised Weapon Mastery*",
+    "Prerequisites": "Catch Off-Guard or Throw Anything, base attack bonus +8",
+    "Benefits": "Make an improvised weapon deadly"
+  },
+  {
+    "Feats": "Intimidating Prowess*",
+    "Prerequisites": "—",
+    "Benefits": "Add Str to Intimidate in addition to Cha"
+  },
+  {
+    "Feats": "Iron Will",
+    "Prerequisites": "—",
+    "Benefits": "+2 bonus on Will saves"
+  },
+  {
+    "Feats": "Improved Iron Will",
+    "Prerequisites": "Iron Will",
+    "Benefits": "Once per day, you may reroll a Will save"
+  },
+  {
+    "Feats": "Leadership",
+    "Prerequisites": "Character level 7th",
+    "Benefits": "Gain a cohort and followers"
+  },
+  {
+    "Feats": "Lightning Reflexes",
+    "Prerequisites": "—",
+    "Benefits": "+2 bonus on Reflex saves"
+  },
+  {
+    "Feats": "Improved Lightning Reflexes",
+    "Prerequisites": "Lightning Reflexes",
+    "Benefits": "Once per day, you may reroll a Reflex save"
+  },
+  {
+    "Feats": "Lunge*",
+    "Prerequisites": "Base attack bonus +6",
+    "Benefits": "Take a –2 penalty to your AC to attack with reach"
+  },
+  {
+    "Feats": "Magical Aptitude",
+    "Prerequisites": "—",
+    "Benefits": "+2 bonus on Spellcraft and Use Magic Device checks"
+  },
+  {
+    "Feats": "Martial Weapon Proficiency",
+    "Prerequisites": "—",
+    "Benefits": "No penalty on attacks made with one martial weapon"
+  },
+  {
+    "Feats": "Master Craftsman",
+    "Prerequisites": "5 ranks in any Craft or Profession skill",
+    "Benefits": "You can craft magic items without being a spellcaster"
+  },
+  {
+    "Feats": "Mounted Combat*",
+    "Prerequisites": "Ride 1 rank",
+    "Benefits": "Avoid attacks on mount with Ride check"
+  },
+  {
+    "Feats": "Mounted Archery*",
+    "Prerequisites": "Mounted Combat",
+    "Benefits": "Halve the penalty for ranged attacks while mounted"
+  },
+  {
+    "Feats": "Ride-By Attack*",
+    "Prerequisites": "Mounted Combat",
+    "Benefits": "Move before and after a charge attack while mounted"
+  },
+  {
+    "Feats": "Spirited Charge*",
+    "Prerequisites": "Ride-By Attack",
+    "Benefits": "Double damage on a mounted charge"
+  },
+  {
+    "Feats": "Trample*",
+    "Prerequisites": "Mounted Combat",
+    "Benefits": "Overrun targets while mounted"
+  },
+  {
+    "Feats": "Unseat*",
+    "Prerequisites": "Improved Bull Rush, Mounted Combat",
+    "Benefits": "Knock opponents from their mounts"
+  },
+  {
+    "Feats": "Natural Spell",
+    "Prerequisites": "Wis 13, wild shape class feature",
+    "Benefits": "Cast spells while using wild shape"
+  },
+  {
+    "Feats": "Nimble Moves",
+    "Prerequisites": "Dex 13",
+    "Benefits": "Ignore 5 feet of difficult terrain when you move"
+  },
+  {
+    "Feats": "Acrobatic Steps",
+    "Prerequisites": "Dex 15, Nimble Moves",
+    "Benefits": "Ignore 20 feet of difficult terrain when you move"
+  },
+  {
+    "Feats": "Persuasive",
+    "Prerequisites": "—",
+    "Benefits": "+2 bonus on Diplomacy and Intimidate checks"
+  },
+  {
+    "Feats": "Point-Blank Shot*",
+    "Prerequisites": "—",
+    "Benefits": "+1 attack and damage on targets within 30 feet"
+  },
+  {
+    "Feats": "Far Shot*",
+    "Prerequisites": "Point-Blank Shot",
+    "Benefits": "Decrease ranged penalties by half"
+  },
+  {
+    "Feats": "Precise Shot*",
+    "Prerequisites": "Point-Blank Shot",
+    "Benefits": "No penalty for shooting into melee"
+  },
+  {
+    "Feats": "Improved PreciseShot*",
+    "Prerequisites": "Dex 19, Precise Shot, base attack bonus +11",
+    "Benefits": "No cover or concealment chance on ranged attacks"
+  },
+  {
+    "Feats": "Pinpoint Targeting*",
+    "Prerequisites": "Improved Precise Shot, base attack bonus +16",
+    "Benefits": "No armor or shield bonus on one ranged attack"
+  },
+  {
+    "Feats": "Shot on the Run*",
+    "Prerequisites": "Dex 13, Mobility, Point-Blank Shot, base attack bonus +4",
+    "Benefits": "Make ranged attack at any point during movement"
+  },
+  {
+    "Feats": "Rapid Shot*",
+    "Prerequisites": "Dex 13, Point-Blank Shot",
+    "Benefits": "Make one extra ranged attack"
+  },
+  {
+    "Feats": "Manyshot*",
+    "Prerequisites": "Dex 17, Rapid Shot, base attack bonus +6",
+    "Benefits": "Shoot two arrows simultaneously"
+  },
+  {
+    "Feats": "Power Attack*",
+    "Prerequisites": "Str 13, base attack bonus +1",
+    "Benefits": "Trade melee attack bonus for damage"
+  },
+  {
+    "Feats": "Cleave*",
+    "Prerequisites": "Power Attack",
+    "Benefits": "Make an additional attack if the first one hits"
+  },
+  {
+    "Feats": "Great Cleave*",
+    "Prerequisites": "Cleave, base attack bonus +4",
+    "Benefits": "Make an additional attack after each attack hits"
+  },
+  {
+    "Feats": "Improved Bull Rush*",
+    "Prerequisites": "Power Attack",
+    "Benefits": "+2 bonus on bull rush attempts, no attack of opportunity"
+  },
+  {
+    "Feats": "Greater Bull Rush*",
+    "Prerequisites": "Improved Bull Rush, base attack bonus +6",
+    "Benefits": "Enemies you bull rush provoke attacks of opportunity"
+  },
+  {
+    "Feats": "Improved Overrun*",
+    "Prerequisites": "Power Attack",
+    "Benefits": "+2 bonus on overrun attempts, no attack of opportunity"
+  },
+  {
+    "Feats": "Greater Overrun*",
+    "Prerequisites": "Improved Overrun, base attack bonus +6",
+    "Benefits": "Enemies you overrun provoke attacks of opportunity"
+  },
+  {
+    "Feats": "Improved Sunder*",
+    "Prerequisites": "Power Attack",
+    "Benefits": "+2 bonus on sunder attempts, no attack of opportunity"
+  },
+  {
+    "Feats": "Greater Sunder*",
+    "Prerequisites": "Improved Sunder, base attack bonus +6",
+    "Benefits": "Damage from sunder attempts transfers to your enemy"
+  },
+  {
+    "Feats": "Quick Draw*",
+    "Prerequisites": "Base attack bonus +1",
+    "Benefits": "Draw weapon as a free action"
+  },
+  {
+    "Feats": "Rapid Reload*",
+    "Prerequisites": "Weapon proficiency (crossbow)",
+    "Benefits": "Reload crossbow quickly"
+  },
+  {
+    "Feats": "Run",
+    "Prerequisites": "—",
+    "Benefits": "Run at 5 times your normal speed"
+  },
+  {
+    "Feats": "Selective Channeling",
+    "Prerequisites": "Cha 13, channel energy class feature",
+    "Benefits": "Choose whom to affect with channel energy"
+  },
+  {
+    "Feats": "Self-Sufficient",
+    "Prerequisites": "—",
+    "Benefits": "+2 bonus on Heal and Survival checks"
+  },
+  {
+    "Feats": "Shield Proficiency",
+    "Prerequisites": "—",
+    "Benefits": "No penalties on attack rolls when using a shield"
+  },
+  {
+    "Feats": "Improved Shield Bash*",
+    "Prerequisites": "Shield Proficiency",
+    "Benefits": "Keep your shield bonus when shield bashing"
+  },
+  {
+    "Feats": "Shield Slam*",
+    "Prerequisites": "Improved Shield Bash, Two-Weapon Fighting, base attack bonus +6",
+    "Benefits": "Free bull rush with a bash attack"
+  },
+  {
+    "Feats": "Shield Master*",
+    "Prerequisites": "Shield Slam, base attack bonus +11",
+    "Benefits": "No two-weapon penalties when attacking with a shield"
+  },
+  {
+    "Feats": "Shield Focus*",
+    "Prerequisites": "Shield Proficiency, base attack bonus +1",
+    "Benefits": "Gain a +1 bonus to your AC when using a shield"
+  },
+  {
+    "Feats": "Greater Shield Focus*",
+    "Prerequisites": "Shield Focus, 8th-level fighter",
+    "Benefits": "Gain a +1 bonus to your AC when using a shield"
+  },
+  {
+    "Feats": "Tower Shield Proficiency*",
+    "Prerequisites": "Shield Proficiency",
+    "Benefits": "No penalties on attack rolls when using a tower shield"
+  },
+  {
+    "Feats": "Simple Weapon Proficiency",
+    "Prerequisites": "—",
+    "Benefits": "No penalty on attacks made with simple weapons"
+  },
+  {
+    "Feats": "Skill Focus",
+    "Prerequisites": "—",
+    "Benefits": "+3 bonus on one skill (+6 at 10 ranks)"
+  },
+  {
+    "Feats": "Spell Focus",
+    "Prerequisites": "—",
+    "Benefits": "+1 bonus on save DCs for one school"
+  },
+  {
+    "Feats": "Greater Spell Focus",
+    "Prerequisites": "Spell Focus",
+    "Benefits": "+1 bonus on save DCs for one school"
+  },
+  {
+    "Feats": "Spell Mastery",
+    "Prerequisites": "1st-level Wizard",
+    "Benefits": "Prepare some spells without a spellbook"
+  },
+  {
+    "Feats": "Spell Penetration",
+    "Prerequisites": "—",
+    "Benefits": "+2 bonus on level checks to beat spell resistance"
+  },
+  {
+    "Feats": "Greater Spell Penetration",
+    "Prerequisites": "Spell Penetration",
+    "Benefits": "+2 bonus on level checks to beat spell resistance"
+  },
+  {
+    "Feats": "Stealthy",
+    "Prerequisites": "—",
+    "Benefits": "+2 bonus on Escape Artist and Stealth checks"
+  },
+  {
+    "Feats": "Step Up*",
+    "Prerequisites": "Base attack bonus +1",
+    "Benefits": "Take a 5-foot step as an immediate action"
+  },
+  {
+    "Feats": "Strike Back*",
+    "Prerequisites": "Base attack bonus +11",
+    "Benefits": "Attack foes that strike you while using reach"
+  },
+  {
+    "Feats": "Throw Anything*",
+    "Prerequisites": "—",
+    "Benefits": "No penalties for improvised ranged weapons"
+  },
+  {
+    "Feats": "Toughness",
+    "Prerequisites": "—",
+    "Benefits": "+3 hit points, +1 per Hit Die beyond 3"
+  },
+  {
+    "Feats": "Turn Undead",
+    "Prerequisites": "Channel positive energy class feature",
+    "Benefits": "Channel energy can be used to make undead flee"
+  },
+  {
+    "Feats": "Two-Weapon Fighting*",
+    "Prerequisites": "Dex 15",
+    "Benefits": "Reduce two-weapon fighting penalties"
+  },
+  {
+    "Feats": "Double Slice*",
+    "Prerequisites": "Two-Weapon Fighting",
+    "Benefits": "Add your Str bonus to off-hand damage rolls"
+  },
+  {
+    "Feats": "Two-Weapon Rend*",
+    "Prerequisites": "Double Slice, Improved Two-Weapon Fighting, base attack bonus +11",
+    "Benefits": "Rend a foe hit by both your weapons"
+  },
+  {
+    "Feats": "Improved Two-Weapon Fighting*",
+    "Prerequisites": "Dex 17, Two-Weapon Fighting, base attack bonus +6",
+    "Benefits": "Gain additional off-hand attack"
+  },
+  {
+    "Feats": "Greater Two-Weapon Fighting*",
+    "Prerequisites": "Dex 19, Improved Two-Weapon Fighting, base attack bonus +11",
+    "Benefits": "Gain a third off-hand attack"
+  },
+  {
+    "Feats": "Two-Weapon Defense*",
+    "Prerequisites": "Two-Weapon Fighting",
+    "Benefits": "Gain +1 shield bonus when fighting with two weapons"
+  },
+  {
+    "Feats": "Vital Strike*",
+    "Prerequisites": "Base attack bonus +6",
+    "Benefits": "Deal twice the normal damage on a single attack"
+  },
+  {
+    "Feats": "Improved Vital Strike*",
+    "Prerequisites": "Vital Strike, base attack bonus +11",
+    "Benefits": "Deal three times the normal damage on a single attack"
+  },
+  {
+    "Feats": "Greater Vital Strike*",
+    "Prerequisites": "Improved Vital Strike, base attack bonus +16",
+    "Benefits": "Deal four times the normal damage on a single attack"
+  },
+  {
+    "Feats": "Weapon Finesse*",
+    "Prerequisites": "—",
+    "Benefits": "Use Dex instead of Str on attack rolls with light weapons"
+  },
+  {
+    "Feats": "Weapon Focus*",
+    "Prerequisites": "Proficiency with weapon, base attack bonus +1",
+    "Benefits": "+1 bonus on attack rolls with one weapon"
+  },
+  {
+    "Feats": "Dazzling Display*",
+    "Prerequisites": "Weapon Focus",
+    "Benefits": "Intimidate all foes within 30 feet"
+  },
+  {
+    "Feats": "Shatter Defenses*",
+    "Prerequisites": "Dazzling Display, base attack bonus +6",
+    "Benefits": "Hindered foes are flat-footed"
+  },
+  {
+    "Feats": "Deadly Stroke*",
+    "Prerequisites": "Greater Weapon Focus, Shatter Defenses, base attack bonus +11",
+    "Benefits": "Deal double damage plus 1 Con bleed"
+  },
+  {
+    "Feats": "Greater Weapon Focus*",
+    "Prerequisites": "Weapon Focus, 8th-level fighter",
+    "Benefits": "+1 bonus on attack rolls with one weapon"
+  },
+  {
+    "Feats": "Penetrating Strike*",
+    "Prerequisites": "Weapon Focus, 12th-level fighter",
+    "Benefits": "Your attacks ignore 5 points of damage reduction"
+  },
+  {
+    "Feats": "Greater Penetrating Strike*",
+    "Prerequisites": "Penetrating Strike, 16th-level fighter",
+    "Benefits": "Your attacks ignore 10 points of damage reduction"
+  },
+  {
+    "Feats": "Weapon Specialization*",
+    "Prerequisites": "Weapon Focus, 4th-level fighter",
+    "Benefits": "+2 bonus on damage rolls with one weapon"
+  },
+  {
+    "Feats": "Greater Weapon Specialization*",
+    "Prerequisites": "Weapon Specialization, 12th-level fighter",
+    "Benefits": "+2 bonus on damage rolls with one weapon"
+  },
+  {
+    "Feats": "Brew Potion",
+    "Prerequisites": "Caster level 3rd",
+    "Benefits": "Create magic potions"
+  },
+  {
+    "Feats": "Craft Magic Arms and Armor",
+    "Prerequisites": "Caster level 5th",
+    "Benefits": "Create magic armors, shields, and weapons"
+  },
+  {
+    "Feats": "Craft Rod",
+    "Prerequisites": "Caster level 9th",
+    "Benefits": "Create magic rods"
+  },
+  {
+    "Feats": "Craft Staff",
+    "Prerequisites": "Caster level 11th",
+    "Benefits": "Create magic staves"
+  },
+  {
+    "Feats": "Craft Wand",
+    "Prerequisites": "Caster level 5th",
+    "Benefits": "Create magic wands"
+  },
+  {
+    "Feats": "Craft Wondrous Item",
+    "Prerequisites": "Caster level 3rd",
+    "Benefits": "Create magic wondrous items"
+  },
+  {
+    "Feats": "Forge Ring",
+    "Prerequisites": "Caster level 7th",
+    "Benefits": "Create magic rings"
+  },
+  {
+    "Feats": "Scribe Scroll",
+    "Prerequisites": "Caster level 1st",
+    "Benefits": "Create magic scrolls"
+  },
+
+  {
+    "Feats": "Empower Spell",
+    "Prerequisites": "—",
+    "Benefits": "Increase spell variables by 50%"
+  },
+  {
+    "Feats": "Enlarge Spell",
+    "Prerequisites": "—",
+    "Benefits": "Double spell range"
+  },
+  {
+    "Feats": "Extend Spell",
+    "Prerequisites": "—",
+    "Benefits": "Double spell duration"
+  },
+  {
+    "Feats": "Heighten Spell",
+    "Prerequisites": "—",
+    "Benefits": "Treat spell as a higher level"
+  },
+  {
+    "Feats": "Maximize Spell",
+    "Prerequisites": "—",
+    "Benefits": "Maximize spell variables"
+  },
+  {
+    "Feats": "Quicken Spell",
+    "Prerequisites": "—",
+    "Benefits": "Cast spell as a swift action"
+  },
+  {
+    "Feats": "Silent Spell",
+    "Prerequisites": "—",
+    "Benefits": "Cast spell without verbal components"
+  },
+  {
+    "Feats": "Still Spell",
+    "Prerequisites": "—",
+    "Benefits": "Cast spell without somatic components"
+  },
+  {
+    "Feats": "Widen Spell",
+    "Prerequisites": "—",
+    "Benefits": "Double spell area"
+  },
+  {
+    "Feats": "* This is a combat feat and can be selected as a fighter bonus feat",
+    "Prerequisites": "* This is a combat feat and can be selected as a fighter bonus feat",
+    "Benefits": "* This is a combat feat and can be selected as a fighter bonus feat"
+  }
+]

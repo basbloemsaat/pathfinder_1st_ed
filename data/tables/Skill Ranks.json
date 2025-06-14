@@ -1,0 +1,13 @@
+[
+  { "Class": "Barbarian", "Skill Ranks per Level": "4 + Int modifier" },
+  { "Class": "Bard", "Skill Ranks per Level": "6 + Int modifier" },
+  { "Class": "Cleric", "Skill Ranks per Level": "2 + Int modifier" },
+  { "Class": "Druid", "Skill Ranks per Level": "4 + Int modifier" },
+  { "Class": "Fighter", "Skill Ranks per Level": "2 + Int modifier" },
+  { "Class": "Monk", "Skill Ranks per Level": "4 + Int modifier" },
+  { "Class": "Paladin", "Skill Ranks per Level": "2 + Int modifier" },
+  { "Class": "Ranger", "Skill Ranks per Level": "6 + Int modifier" },
+  { "Class": "Rogue", "Skill Ranks per Level": "8 + Int modifier" },
+  { "Class": "Sorcerer", "Skill Ranks per Level": "2 + Int modifier" },
+  { "Class": "Wizard", "Skill Ranks per Level": "2 + Int modifier" }
+]

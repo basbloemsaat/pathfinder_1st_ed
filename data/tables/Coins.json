@@ -1,0 +1,6 @@
+[
+  { "Exchange Value": "Copper piece (cp)", "cp": 1, "sp": "1/10", "gp": "1/100", "pp": "1/1,000" },
+  { "Exchange Value": "Silver piece (sp)", "cp": 10, "sp": "1", "gp": "1/10", "pp": "1/100" },
+  { "Exchange Value": "Gold piece (gp)", "cp": 100, "sp": "10", "gp": "1", "pp": "1/10" },
+  { "Exchange Value": "Platinum piece (pp)", "cp": 1000, "sp": "100", "gp": "10", "pp": "1" }
+]

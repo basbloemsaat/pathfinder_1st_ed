@@ -1,0 +1,18 @@
+[
+  {
+    "Skill": "Untrained",
+    "Skill Check is Equal To*": "1d20 + ability modifier + racial modifier"
+  },
+  {
+    "Skill": "Trained",
+    "Skill Check is Equal To*": "1d20 + skill ranks + ability modifier + racial modifier"
+  },
+  {
+    "Skill": "Trained Class Skill",
+    "Skill Check is Equal To*": "1d20 + skill ranks + ability modifier + racial modifier + 3"
+  },
+  {
+    "Skill": "* Armor check penalty applies to all Strength- and Dexterity-based skill checks.",
+    "Skill Check is Equal To*": "* Armor check penalty applies to all Strength- and Dexterity-based skill checks."
+  }
+]

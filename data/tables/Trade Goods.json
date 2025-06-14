@@ -1,0 +1,15 @@
+[
+  { "Cost": "1 cp", "Item": "One pound of wheat" },
+  { "Cost": "2 cp", "Item": "One pound of flour, or one chicken" },
+  { "Cost": "1 sp", "Item": "One pound of iron" },
+  { "Cost": "5 sp", "Item": "One pound of tobacco or copper" },
+  { "Cost": "1 gp", "Item": "One pound of cinnamon, or one goat" },
+  { "Cost": "2 gp", "Item": "One pound of ginger or pepper, or one sheep" },
+  { "Cost": "3 gp", "Item": "One pig" },
+  { "Cost": "4 gp", "Item": "One square yard of linen" },
+  { "Cost": "5 gp", "Item": "One pound of salt or silver" },
+  { "Cost": "10 gp", "Item": "One square yard of silk, or one cow" },
+  { "Cost": "15 gp", "Item": "One pound of saffron or cloves, or one ox" },
+  { "Cost": "50 gp", "Item": "One pound of gold" },
+  { "Cost": "500 gp", "Item": "One pound of platinum" }
+]

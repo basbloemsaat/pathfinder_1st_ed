@@ -1,0 +1,13 @@
+[
+  { "Medium Weapon Damage": "1d2", "Tiny Weapon Damage": "—", "Large Weapon Damage": "1d3" },
+  { "Medium Weapon Damage": "1d3", "Tiny Weapon Damage": "1", "Large Weapon Damage": "1d4" },
+  { "Medium Weapon Damage": "1d4", "Tiny Weapon Damage": "1d2", "Large Weapon Damage": "1d6" },
+  { "Medium Weapon Damage": "1d6", "Tiny Weapon Damage": "1d3", "Large Weapon Damage": "1d8" },
+  { "Medium Weapon Damage": "1d8", "Tiny Weapon Damage": "1d4", "Large Weapon Damage": "2d6" },
+  { "Medium Weapon Damage": "1d10", "Tiny Weapon Damage": "1d6", "Large Weapon Damage": "2d8" },
+  { "Medium Weapon Damage": "1d12", "Tiny Weapon Damage": "1d8", "Large Weapon Damage": "3d6" },
+  { "Medium Weapon Damage": "2d4", "Tiny Weapon Damage": "1d4", "Large Weapon Damage": "2d6" },
+  { "Medium Weapon Damage": "2d6", "Tiny Weapon Damage": "1d8", "Large Weapon Damage": "3d6" },
+  { "Medium Weapon Damage": "2d8", "Tiny Weapon Damage": "1d10", "Large Weapon Damage": "3d8" },
+  { "Medium Weapon Damage": "2d10", "Tiny Weapon Damage": "2d6", "Large Weapon Damage": "4d8" }
+]
