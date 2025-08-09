@@ -44,7 +44,7 @@ class CharacterClass(BaseModel):
             description="The hit die for the character class, used for calculating hit points."
         ),
     ]
-    alignment: Annotated[
+    allowed_alignments: Annotated[
         set[AlignmentEnum],
         Field(
             description="Allowed alignments for the class. Empty list means any alignment is allowed."
@@ -76,7 +76,7 @@ with open("data/tables/Character Classes.json") as f:
             name=cls["Class"],
             description=cls["Description"],
             hit_die=cls["Hit die"],
-            alignment=[AlignmentEnum(a) for a in cls.get("Alignment", [])],
+            allowed_alignments=set(AlignmentEnum(a) for a in cls.get("Alignment", [])),
             class_skills=cls.get("Class Skills", []),
             skill_ranks_per_level=int(cls.get("Skill Ranks per Level", 0)),
             starting_wealth=cls.get("Starting Wealth", ""),

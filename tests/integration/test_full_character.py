@@ -4,15 +4,20 @@ from race import RaceEnum
 from ability import AbilityScores
 
 from character_class import ClassEnum
+import exceptions
+from alignment import AlignmentEnum
+from level import Level
 
 
 @pytest.fixture
 def character() -> Character:
+
     character = Character(
         name="Qarsus",
         race=RaceEnum.HUMAN,
         abilities=AbilityScores(),
-        character_class=ClassEnum.DRUID,
+        levels=[Level(class_=ClassEnum.DRUID.value)],
+        alignment=AlignmentEnum.TRUE_NEUTRAL,
     )
     character.abilities.str.score = 16
     character.abilities.dex.score = 14
@@ -49,17 +54,30 @@ def test_character_abilities(character: Character):
 
 
 def test_character_class(character: Character):
-    # Check that the character class is set correctly
-    assert character.character_class == ClassEnum.DRUID
+    # Check that the character class is set correctly (first level)
+    assert character.levels[0].class_.name == "Druid"
 
-    druid = character.character_class.value
+    druid = character.levels[0].class_
     assert druid.name == "Druid"
-    assert druid.description.startswith("The druid is a worshiper of all things natural")
+    assert druid.description.startswith(
+        "The druid is a worshiper of all things natural"
+    )
     assert druid.hit_die == "d8"
     from alignment import AlignmentEnum
-    assert druid.alignment == {AlignmentEnum.NEUTRAL_GOOD, AlignmentEnum.TRUE_NEUTRAL, AlignmentEnum.NEUTRAL_EVIL}
+
+    assert druid.allowed_alignments == {
+        AlignmentEnum.NEUTRAL_GOOD,
+        AlignmentEnum.TRUE_NEUTRAL,
+        AlignmentEnum.NEUTRAL_EVIL,
+    }
     assert "Handle Animal" in druid.class_skills
     assert "Spellcraft" in druid.class_skills
     assert druid.skill_ranks_per_level == 4
     assert druid.starting_wealth == "2d6 x 10 gp"
     assert druid.average_starting_wealth == "70 gp"
+
+
+def test_character_invalid_alignment(character: Character):
+
+    with pytest.raises(exceptions.AlignmentError):
+        character.alignment = AlignmentEnum.LAWFUL_GOOD

@@ -9,7 +9,7 @@ def test_character_class_fields():
     assert wizard.name == "Wizard"
     assert isinstance(wizard.description, str)
     assert isinstance(wizard.hit_die, str)
-    assert isinstance(wizard.alignment, set)
+    assert isinstance(wizard.allowed_alignments, set)
     assert isinstance(wizard.class_skills, list)
     assert isinstance(wizard.skill_ranks_per_level, int)
     assert isinstance(wizard.starting_wealth, str)
@@ -21,9 +21,11 @@ def test_character_classes_dict():
     for cls in character_classes.values():
         assert isinstance(cls, CharacterClass)
 
+
 def test_class_enum_members():
     # Ensure all ClassEnum members are present in character_classes and are CharacterClass instances
     from character_class import ClassEnum
+
     for member in ClassEnum:
         # The value of each member should be a CharacterClass instance
         assert isinstance(member.value, CharacterClass)
