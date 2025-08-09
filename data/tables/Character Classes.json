@@ -1,0 +1,46 @@
+[
+  {
+    "Class": "Barbarian",
+    "Description": "The barbarian is a brutal berserker from beyond the edge of civilized lands."
+  },
+  {
+    "Class": "Bard",
+    "Description": "The bard uses skill and spell alike to bolster his allies, confound his enemies, and build upon his fame."
+  },
+  {
+    "Class": "Cleric",
+    "Description": "A devout follower of a deity, the cleric can heal wounds, raise the dead, and call down the wrath of the gods."
+  },
+  {
+    "Class": "Druid",
+    "Description": "The druid is a worshiper of all things natural – a spellcaster, a friend to animals, and a skilled shapechanger."
+  },
+  {
+    "Class": "Fighter",
+    "Description": "Brave and stalwart, the fighter is a master of all manner of arms and armor."
+  },
+  {
+    "Class": "Monk",
+    "Description": "A student of martial arts, the monk trains his body to be his greatest weapon and defense."
+  },
+  {
+    "Class": "Paladin",
+    "Description": "The paladin is the knight in shining armor, a devoted follower of law and good."
+  },
+  {
+    "Class": "Ranger",
+    "Description": "A tracker and hunter, the ranger is a creature of the wild and of tracking down his favored foes."
+  },
+  {
+    "Class": "Rogue",
+    "Description": "The rogue is a thief and a scout, an opportunist capable of delivering brutal strikes against unwary foes."
+  },
+  {
+    "Class": "Sorcerer",
+    "Description": "The spellcasting sorcerer is born with an innate knack for magic and has strange, eldritch powers."
+  },
+  {
+    "Class": "Wizard",
+    "Description": "The wizard masters magic through constant study that gives him incredible magical power."
+  }
+]
