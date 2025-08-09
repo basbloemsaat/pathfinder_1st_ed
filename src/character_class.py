@@ -5,6 +5,7 @@ from typing import Annotated
 from pydantic import BaseModel, Field
 
 from saving_throw import SaveProgressionSpeed
+from alignment import AlignmentEnum
 
 
 class ClassSavingThrow(BaseModel):
@@ -44,7 +45,7 @@ class CharacterClass(BaseModel):
         ),
     ]
     alignment: Annotated[
-        list[str],
+        set[AlignmentEnum],
         Field(
             description="Allowed alignments for the class. Empty list means any alignment is allowed."
         ),
@@ -75,7 +76,7 @@ with open("data/tables/Character Classes.json") as f:
             name=cls["Class"],
             description=cls["Description"],
             hit_die=cls["Hit die"],
-            alignment=cls.get("Alignment", []),
+            alignment=[AlignmentEnum(a) for a in cls.get("Alignment", [])],
             class_skills=cls.get("Class Skills", []),
             skill_ranks_per_level=int(cls.get("Skill Ranks per Level", 0)),
             starting_wealth=cls.get("Starting Wealth", ""),

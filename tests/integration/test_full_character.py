@@ -3,10 +3,17 @@ from character import Character
 from race import RaceEnum
 from ability import AbilityScores
 
+from character_class import ClassEnum
+
 
 @pytest.fixture
 def character() -> Character:
-    character = Character(name="Qarsus", race=RaceEnum.HUMAN, abilities=AbilityScores())
+    character = Character(
+        name="Qarsus",
+        race=RaceEnum.HUMAN,
+        abilities=AbilityScores(),
+        character_class=ClassEnum.DRUID,
+    )
     character.abilities.str.score = 16
     character.abilities.dex.score = 14
     character.abilities.con.score = 12
@@ -39,3 +46,20 @@ def test_character_abilities(character: Character):
     assert character.abilities.int.modifier == 0
     assert character.abilities.wis.modifier == -1
     assert character.abilities.cha.modifier == -2
+
+
+def test_character_class(character: Character):
+    # Check that the character class is set correctly
+    assert character.character_class == ClassEnum.DRUID
+
+    druid = character.character_class.value
+    assert druid.name == "Druid"
+    assert druid.description.startswith("The druid is a worshiper of all things natural")
+    assert druid.hit_die == "d8"
+    from alignment import AlignmentEnum
+    assert druid.alignment == {AlignmentEnum.NEUTRAL_GOOD, AlignmentEnum.TRUE_NEUTRAL, AlignmentEnum.NEUTRAL_EVIL}
+    assert "Handle Animal" in druid.class_skills
+    assert "Spellcraft" in druid.class_skills
+    assert druid.skill_ranks_per_level == 4
+    assert druid.starting_wealth == "2d6 x 10 gp"
+    assert druid.average_starting_wealth == "70 gp"
