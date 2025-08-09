@@ -18,14 +18,30 @@ def test_race_model_fields():
     assert isinstance(dwarf.ability_score_minus, list)
     assert all(isinstance(x, str) for x in dwarf.ability_score_minus)
     assert isinstance(dwarf.size, str)
-    assert isinstance(dwarf.type_subtype, str)
+    assert isinstance(dwarf.race_type, str)
+    assert isinstance(dwarf.subtype, list)
+    assert all(isinstance(x, str) for x in dwarf.subtype)
     assert isinstance(dwarf.speed, int)
     assert isinstance(dwarf.starting_languages, list)
     assert all(isinstance(x, str) for x in dwarf.starting_languages)
+    assert isinstance(dwarf.weapon_familiarity_proficiency, (list, type(None)))
+    if dwarf.weapon_familiarity_proficiency:
+        assert all(isinstance(x, str) for x in dwarf.weapon_familiarity_proficiency)
     assert isinstance(dwarf.race_points, int)
 
 
 def test_races_enum():
-    # Check that the Races enum works and returns a Race
-    assert isinstance(Races.HUMAN.value, Race)
-    assert Races.HUMAN.value.name == "Human"
+    # Check that the Races enum works and returns a Race for all core races
+    expected = {
+        "DWARF": "Dwarf",
+        "ELF": "Elf",
+        "GNOME": "Gnome",
+        "HALFELF": "Half-elf",
+        "HALFLING": "Halfling",
+        "HALFORC": "Half-orc",
+        "HUMAN": "Human",
+    }
+    for enum_member, race_name in expected.items():
+        race = getattr(Races, enum_member).value
+        assert isinstance(race, Race)
+        assert race.name == race_name
