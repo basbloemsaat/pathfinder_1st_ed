@@ -1,4 +1,3 @@
-import pytest
 from race import Race, races, RaceEnum
 
 

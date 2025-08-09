@@ -23,6 +23,19 @@ def test_character_class__character_class():
         ],
     )
 
-    # Act
-
     # Assert
+    assert testclass.name == "Test Class"
+    assert testclass.description == "A test class."
+    assert testclass.hit_die == 12
+    assert testclass.primary_ability == "Strength"
+    assert isinstance(testclass.saving_throws, character_class.ClassSavingThrow)
+    assert testclass.saving_throws.fortitude == SaveProgressionSpeed.FAST
+    assert testclass.saving_throws.reflex == SaveProgressionSpeed.SLOW
+    assert testclass.saving_throws.will == SaveProgressionSpeed.SLOW
+    assert testclass.skills == ["Athletics", "Survival", "Intimidation"]
+    assert testclass.equipment == [
+        "Greataxe or any martial melee weapon",
+        "Two handaxes or any simple weapon",
+        "Explorer's pack",
+        "Four javelins",
+    ]
