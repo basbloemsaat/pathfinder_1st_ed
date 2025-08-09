@@ -1,5 +1,5 @@
 import pytest
-from race import Race, races, Races
+from race import Race, races, RaceEnum
 
 
 def test_races_dict_keys():
@@ -42,6 +42,6 @@ def test_races_enum():
         "HUMAN": "Human",
     }
     for enum_member, race_name in expected.items():
-        race = getattr(Races, enum_member).value
+        race = getattr(RaceEnum, enum_member).value
         assert isinstance(race, Race)
         assert race.name == race_name

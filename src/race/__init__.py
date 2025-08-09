@@ -50,8 +50,7 @@ with open("data/tables/Core Races.json") as f:
         )
 
 
-class Races(Enum):
-
+class RaceEnum(Enum):
     DWARF = races["Dwarf"]
     ELF = races["Elf"]
     GNOME = races["Gnome"]
