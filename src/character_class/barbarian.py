@@ -1,7 +1,7 @@
 from character_class import CharacterClass, ClassSavingThrow
 from saving_throw import SaveProgressionSpeed
 
-barbarian = CharacterClass(
+character_class = CharacterClass(
     name="Barbarian",
     description="A fierce warrior of primitive background who can enter a battle rage.",
     hit_die=12,
