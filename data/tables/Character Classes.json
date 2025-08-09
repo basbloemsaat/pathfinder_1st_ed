@@ -23,7 +23,7 @@
       "Survival",
       "Swim"
     ],
-    "Skill Ranks per Level": { "Ability": "int", "Value": 4 },
+    "Skill Ranks per Level": 4,
     "Starting Wealth": "3d6 x 10 gp",
     "Average Starting Wealth": "105 gp"
   },
@@ -62,7 +62,7 @@
       "Stealth",
       "Use Magic Device"
     ],
-    "Skill Ranks per Level": { "Ability": "int", "Value": 6 },
+    "Skill Ranks per Level": 6,
     "Starting Wealth": "3d6 x 10 gp",
     "Average Starting Wealth": "105 gp"
   },
@@ -86,7 +86,7 @@
       "Sense Motive",
       "Spellcraft"
     ],
-    "Skill Ranks per Level": { "Ability": "int", "Value": 2 },
+    "Skill Ranks per Level": 2,
     "Starting Wealth": "4d6 x 10 gp",
     "Average Starting Wealth": "140 gp"
   },
@@ -109,7 +109,7 @@
       "Survival",
       "Swim"
     ],
-    "Skill Ranks per Level": { "Ability": "int", "Value": 4 },
+    "Skill Ranks per Level": 4,
     "Starting Wealth": "2d6 x 10 gp",
     "Average Starting Wealth": "70 gp"
   },
@@ -130,7 +130,7 @@
       "Survival",
       "Swim"
     ],
-    "Skill Ranks per Level": { "Ability": "int", "Value": 2 },
+    "Skill Ranks per Level": 2,
     "Starting Wealth": "5d6 x 10 gp",
     "Average Starting Wealth": "175 gp"
   },
@@ -155,7 +155,7 @@
       "Stealth",
       "Swim"
     ],
-    "Skill Ranks per Level": { "Ability": "int", "Value": 4 },
+    "Skill Ranks per Level": 4,
     "Starting Wealth": "1d6 x 10 gp",
     "Average Starting Wealth": "35 gp"
   },
@@ -176,7 +176,7 @@
       "Sense Motive",
       "Spellcraft"
     ],
-    "Skill Ranks per Level": { "Ability": "int", "Value": 2 },
+    "Skill Ranks per Level": 2,
     "Starting Wealth": "5d6 x 10 gp",
     "Average Starting Wealth": "175 gp"
   },
@@ -200,7 +200,7 @@
       "Survival",
       "Swim"
     ],
-    "Skill Ranks per Level": { "Ability": "int", "Value": 6 },
+    "Skill Ranks per Level": 6,
     "Starting Wealth": "5d6 x 10 gp",
     "Average Starting Wealth": "175 gp"
   },
@@ -232,7 +232,7 @@
       "Swim",
       "Use Magic Device"
     ],
-    "Skill Ranks per Level": { "Ability": "int", "Value": 8 },
+    "Skill Ranks per Level": 8,
     "Starting Wealth": "4d6 x 10 gp",
     "Average Starting Wealth": "140 gp"
   },
@@ -251,7 +251,7 @@
       "Spellcraft",
       "Use Magic Device"
     ],
-    "Skill Ranks per Level": { "Ability": "int", "Value": 2 },
+    "Skill Ranks per Level": 2,
     "Starting Wealth": "2d6 x 10 gp",
     "Average Starting Wealth": "70 gp"
   },
@@ -278,7 +278,7 @@
       "Profession",
       "Spellcraft"
     ],
-    "Skill Ranks per Level": { "Ability": "int", "Value": 2 },
+    "Skill Ranks per Level": 2,
     "Starting Wealth": "2d6 x 10 gp",
     "Average Starting Wealth": "70 gp"
   }
