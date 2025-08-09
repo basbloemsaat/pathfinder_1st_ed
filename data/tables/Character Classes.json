@@ -1,46 +1,285 @@
 [
   {
     "Class": "Barbarian",
-    "Description": "The barbarian is a brutal berserker from beyond the edge of civilized lands."
+    "Description": "The barbarian is a brutal berserker from beyond the edge of civilized lands.",
+    "Hit die": "d12",
+    "Alignment": [
+      "Neutral Good",
+      "Chaotic Good",
+      "Chaotic Neutral",
+      "Chaotic Evil",
+      "True Neutral",
+      "Neutral Evil"
+    ],
+    "Class Skills": [
+      "Acrobatics",
+      "Climb",
+      "Craft",
+      "Handle Animal",
+      "Intimidate",
+      "Knowledge (nature)",
+      "Perception",
+      "Ride",
+      "Survival",
+      "Swim"
+    ],
+    "Skill Ranks per Level": { "Ability": "int", "Value": 4 },
+    "Starting Wealth": "3d6 x 10 gp",
+    "Average Starting Wealth": "105 gp"
   },
   {
     "Class": "Bard",
-    "Description": "The bard uses skill and spell alike to bolster his allies, confound his enemies, and build upon his fame."
+    "Description": "The bard uses skill and spell alike to bolster his allies, confound his enemies, and build upon his fame.",
+    "Hit die": "d8",
+    "Alignment": [],
+    "Class Skills": [
+      "Acrobatics",
+      "Appraise",
+      "Bluff",
+      "Climb",
+      "Craft",
+      "Diplomacy",
+      "Disguise",
+      "Escape Artist",
+      "Intimidate",
+      "Knowledge (arcana)",
+      "Knowledge (dungeoneering)",
+      "Knowledge (engineering)",
+      "Knowledge (geography)",
+      "Knowledge (history)",
+      "Knowledge (local)",
+      "Knowledge (nature)",
+      "Knowledge (nobility)",
+      "Knowledge (planes)",
+      "Knowledge (religion)",
+      "Linguistics",
+      "Perception",
+      "Perform",
+      "Profession",
+      "Sense Motive",
+      "Sleight of Hand",
+      "Spellcraft",
+      "Stealth",
+      "Use Magic Device"
+    ],
+    "Skill Ranks per Level": { "Ability": "int", "Value": 6 },
+    "Starting Wealth": "3d6 x 10 gp",
+    "Average Starting Wealth": "105 gp"
   },
   {
     "Class": "Cleric",
-    "Description": "A devout follower of a deity, the cleric can heal wounds, raise the dead, and call down the wrath of the gods."
+    "Description": "A devout follower of a deity, the cleric can heal wounds, raise the dead, and call down the wrath of the gods.",
+    "Hit die": "d8",
+    "Alignment": [],
+    "Class Skills": [
+      "Appraise",
+      "Craft",
+      "Diplomacy",
+      "Heal",
+      "Knowledge (arcana)",
+      "Knowledge (history)",
+      "Knowledge (nobility)",
+      "Knowledge (planes)",
+      "Knowledge (religion)",
+      "Linguistics",
+      "Profession",
+      "Sense Motive",
+      "Spellcraft"
+    ],
+    "Skill Ranks per Level": { "Ability": "int", "Value": 2 },
+    "Starting Wealth": "4d6 x 10 gp",
+    "Average Starting Wealth": "140 gp"
   },
   {
     "Class": "Druid",
-    "Description": "The druid is a worshiper of all things natural – a spellcaster, a friend to animals, and a skilled shapechanger."
+    "Description": "The druid is a worshiper of all things natural – a spellcaster, a friend to animals, and a skilled shapechanger.",
+    "Hit die": "d8",
+    "Alignment": ["Neutral Good", "True Neutral", "Neutral Evil"],
+    "Class Skills": [
+      "Climb",
+      "Craft",
+      "Fly",
+      "Handle Animal",
+      "Heal",
+      "Knowledge (nature)",
+      "Perception",
+      "Profession",
+      "Ride",
+      "Spellcraft",
+      "Survival",
+      "Swim"
+    ],
+    "Skill Ranks per Level": { "Ability": "int", "Value": 4 },
+    "Starting Wealth": "2d6 x 10 gp",
+    "Average Starting Wealth": "70 gp"
   },
   {
     "Class": "Fighter",
-    "Description": "Brave and stalwart, the fighter is a master of all manner of arms and armor."
+    "Description": "Brave and stalwart, the fighter is a master of all manner of arms and armor.",
+    "Hit die": "d10",
+    "Alignment": [],
+    "Class Skills": [
+      "Climb",
+      "Craft",
+      "Handle Animal",
+      "Intimidate",
+      "Knowledge (dungeoneering)",
+      "Knowledge (engineering)",
+      "Profession",
+      "Ride",
+      "Survival",
+      "Swim"
+    ],
+    "Skill Ranks per Level": { "Ability": "int", "Value": 2 },
+    "Starting Wealth": "5d6 x 10 gp",
+    "Average Starting Wealth": "175 gp"
   },
   {
     "Class": "Monk",
-    "Description": "A student of martial arts, the monk trains his body to be his greatest weapon and defense."
+    "Description": "A student of martial arts, the monk trains his body to be his greatest weapon and defense.",
+    "Hit die": "d8",
+    "Alignment": ["Lawful Good", "Lawful Neutral", "Lawful Evil"],
+    "Class Skills": [
+      "Acrobatics",
+      "Climb",
+      "Craft",
+      "Escape Artist",
+      "Intimidate",
+      "Knowledge (history)",
+      "Knowledge (religion)",
+      "Perception",
+      "Perform",
+      "Profession",
+      "Ride",
+      "Sense Motive",
+      "Stealth",
+      "Swim"
+    ],
+    "Skill Ranks per Level": { "Ability": "int", "Value": 4 },
+    "Starting Wealth": "1d6 x 10 gp",
+    "Average Starting Wealth": "35 gp"
   },
   {
     "Class": "Paladin",
-    "Description": "The paladin is the knight in shining armor, a devoted follower of law and good."
+    "Description": "The paladin is the knight in shining armor, a devoted follower of law and good.",
+    "Hit die": "d10",
+    "Alignment": ["Lawful Good"],
+    "Class Skills": [
+      "Craft",
+      "Diplomacy",
+      "Handle Animal",
+      "Heal",
+      "Knowledge (nobility)",
+      "Knowledge (religion)",
+      "Profession",
+      "Ride",
+      "Sense Motive",
+      "Spellcraft"
+    ],
+    "Skill Ranks per Level": { "Ability": "int", "Value": 2 },
+    "Starting Wealth": "5d6 x 10 gp",
+    "Average Starting Wealth": "175 gp"
   },
   {
     "Class": "Ranger",
-    "Description": "A tracker and hunter, the ranger is a creature of the wild and of tracking down his favored foes."
+    "Description": "A tracker and hunter, the ranger is a creature of the wild and of tracking down his favored foes.",
+    "Hit die": "d10",
+    "Alignment": [],
+    "Class Skills": [
+      "Climb",
+      "Craft",
+      "Handle Animal",
+      "Knowledge (dungeoneering)",
+      "Knowledge (geography)",
+      "Knowledge (nature)",
+      "Perception",
+      "Profession",
+      "Ride",
+      "Spellcraft",
+      "Stealth",
+      "Survival",
+      "Swim"
+    ],
+    "Skill Ranks per Level": { "Ability": "int", "Value": 6 },
+    "Starting Wealth": "5d6 x 10 gp",
+    "Average Starting Wealth": "175 gp"
   },
   {
     "Class": "Rogue",
-    "Description": "The rogue is a thief and a scout, an opportunist capable of delivering brutal strikes against unwary foes."
+    "Description": "The rogue is a thief and a scout, an opportunist capable of delivering brutal strikes against unwary foes.",
+    "Hit die": "d8",
+    "Alignment": [],
+    "Class Skills": [
+      "Acrobatics",
+      "Appraise",
+      "Bluff",
+      "Climb",
+      "Craft",
+      "Diplomacy",
+      "Disable Device",
+      "Disguise",
+      "Escape Artist",
+      "Intimidate",
+      "Knowledge (dungeoneering)",
+      "Knowledge (local)",
+      "Linguistics",
+      "Perception",
+      "Perform",
+      "Profession",
+      "Sense Motive",
+      "Sleight of Hand",
+      "Stealth",
+      "Swim",
+      "Use Magic Device"
+    ],
+    "Skill Ranks per Level": { "Ability": "int", "Value": 8 },
+    "Starting Wealth": "4d6 x 10 gp",
+    "Average Starting Wealth": "140 gp"
   },
   {
     "Class": "Sorcerer",
-    "Description": "The spellcasting sorcerer is born with an innate knack for magic and has strange, eldritch powers."
+    "Description": "The spellcasting sorcerer is born with an innate knack for magic and has strange, eldritch powers.",
+    "Hit die": "d6",
+    "Alignment": [],
+    "Class Skills": [
+      "Appraise",
+      "Bluff",
+      "Craft",
+      "Fly",
+      "Knowledge (arcana)",
+      "Profession",
+      "Spellcraft",
+      "Use Magic Device"
+    ],
+    "Skill Ranks per Level": { "Ability": "int", "Value": 2 },
+    "Starting Wealth": "2d6 x 10 gp",
+    "Average Starting Wealth": "70 gp"
   },
   {
     "Class": "Wizard",
-    "Description": "The wizard masters magic through constant study that gives him incredible magical power."
+    "Description": "The wizard masters magic through constant study that gives him incredible magical power.",
+    "Hit die": "d6",
+    "Alignment": [],
+    "Class Skills": [
+      "Appraise",
+      "Craft",
+      "Fly",
+      "Knowledge (arcana)",
+      "Knowledge (dungeoneering)",
+      "Knowledge (engineering)",
+      "Knowledge (geography)",
+      "Knowledge (history)",
+      "Knowledge (local)",
+      "Knowledge (nature)",
+      "Knowledge (nobility)",
+      "Knowledge (planes)",
+      "Knowledge (religion)",
+      "Linguistics",
+      "Profession",
+      "Spellcraft"
+    ],
+    "Skill Ranks per Level": { "Ability": "int", "Value": 2 },
+    "Starting Wealth": "2d6 x 10 gp",
+    "Average Starting Wealth": "70 gp"
   }
 ]

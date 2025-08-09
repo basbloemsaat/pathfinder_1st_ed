@@ -1,631 +1,176 @@
 [
   {
     "Skill": "Acrobatics",
-    "Class Skill": {
-      "Bbn": true,
-      "Brd": true,
-      "Clr": false,
-      "Drd": false,
-      "Ftr": false,
-      "Mnk": true,
-      "Pal": false,
-      "Rgr": false,
-      "Rog": true,
-      "Sor": false,
-      "Wiz": false
-    },
     "Untrained": "Yes",
     "Ability": "Dex*"
   },
   {
     "Skill": "Appraise",
-    "Class Skill": {
-      "Bbn": false,
-      "Brd": true,
-      "Clr": true,
-      "Drd": false,
-      "Ftr": false,
-      "Mnk": false,
-      "Pal": false,
-      "Rgr": false,
-      "Rog": true,
-      "Sor": true,
-      "Wiz": true
-    },
     "Untrained": "Yes",
     "Ability": "Int"
   },
   {
     "Skill": "Bluff",
-    "Class Skill": {
-      "Bbn": false,
-      "Brd": true,
-      "Clr": false,
-      "Drd": false,
-      "Ftr": false,
-      "Mnk": false,
-      "Pal": false,
-      "Rgr": false,
-      "Rog": true,
-      "Sor": true,
-      "Wiz": false
-    },
     "Untrained": "Yes",
     "Ability": "Cha"
   },
   {
     "Skill": "Climb",
-    "Class Skill": {
-      "Bbn": true,
-      "Brd": true,
-      "Clr": false,
-      "Drd": true,
-      "Ftr": true,
-      "Mnk": true,
-      "Pal": false,
-      "Rgr": true,
-      "Rog": true,
-      "Sor": false,
-      "Wiz": false
-    },
     "Untrained": "Yes",
     "Ability": "Str*"
   },
   {
     "Skill": "Craft",
-    "Class Skill": {
-      "Bbn": true,
-      "Brd": true,
-      "Clr": true,
-      "Drd": true,
-      "Ftr": true,
-      "Mnk": true,
-      "Pal": true,
-      "Rgr": true,
-      "Rog": true,
-      "Sor": true,
-      "Wiz": true
-    },
     "Untrained": "Yes",
     "Ability": "Int"
   },
   {
     "Skill": "Diplomacy",
-    "Class Skill": {
-      "Bbn": false,
-      "Brd": true,
-      "Clr": true,
-      "Drd": false,
-      "Ftr": false,
-      "Mnk": false,
-      "Pal": true,
-      "Rgr": false,
-      "Rog": true,
-      "Sor": false,
-      "Wiz": false
-    },
     "Untrained": "Yes",
     "Ability": "Cha"
   },
   {
     "Skill": "Disable Device",
-    "Class Skill": {
-      "Bbn": false,
-      "Brd": false,
-      "Clr": false,
-      "Drd": false,
-      "Ftr": false,
-      "Mnk": false,
-      "Pal": false,
-      "Rgr": false,
-      "Rog": true,
-      "Sor": false,
-      "Wiz": false
-    },
     "Untrained": "No",
     "Ability": "Dex*"
   },
   {
     "Skill": "Disguise",
-    "Class Skill": {
-      "Bbn": false,
-      "Brd": true,
-      "Clr": false,
-      "Drd": false,
-      "Ftr": false,
-      "Mnk": false,
-      "Pal": false,
-      "Rgr": false,
-      "Rog": true,
-      "Sor": false,
-      "Wiz": false
-    },
     "Untrained": "Yes",
     "Ability": "Cha"
   },
   {
     "Skill": "Escape Artist",
-    "Class Skill": {
-      "Bbn": false,
-      "Brd": true,
-      "Clr": false,
-      "Drd": false,
-      "Ftr": false,
-      "Mnk": true,
-      "Pal": false,
-      "Rgr": false,
-      "Rog": true,
-      "Sor": false,
-      "Wiz": false
-    },
     "Untrained": "Yes",
     "Ability": "Dex*"
   },
   {
     "Skill": "Fly",
-    "Class Skill": {
-      "Bbn": false,
-      "Brd": false,
-      "Clr": false,
-      "Drd": true,
-      "Ftr": false,
-      "Mnk": false,
-      "Pal": false,
-      "Rgr": false,
-      "Rog": false,
-      "Sor": true,
-      "Wiz": true
-    },
     "Untrained": "Yes",
     "Ability": "Dex*"
   },
   {
     "Skill": "Handle Animal",
-    "Class Skill": {
-      "Bbn": true,
-      "Brd": false,
-      "Clr": false,
-      "Drd": true,
-      "Ftr": true,
-      "Mnk": false,
-      "Pal": true,
-      "Rgr": true,
-      "Rog": false,
-      "Sor": false,
-      "Wiz": false
-    },
     "Untrained": "No",
     "Ability": "Cha"
   },
   {
     "Skill": "Heal",
-    "Class Skill": {
-      "Bbn": false,
-      "Brd": false,
-      "Clr": true,
-      "Drd": true,
-      "Ftr": false,
-      "Mnk": false,
-      "Pal": true,
-      "Rgr": true,
-      "Rog": false,
-      "Sor": false,
-      "Wiz": false
-    },
     "Untrained": "Yes",
     "Ability": "Wis"
   },
   {
     "Skill": "Intimidate",
-    "Class Skill": {
-      "Bbn": true,
-      "Brd": true,
-      "Clr": false,
-      "Drd": false,
-      "Ftr": true,
-      "Mnk": true,
-      "Pal": false,
-      "Rgr": true,
-      "Rog": true,
-      "Sor": true,
-      "Wiz": false
-    },
     "Untrained": "Yes",
     "Ability": "Cha"
   },
   {
     "Skill": "Knowledge (arcana)",
-    "Class Skill": {
-      "Bbn": false,
-      "Brd": true,
-      "Clr": true,
-      "Drd": false,
-      "Ftr": false,
-      "Mnk": false,
-      "Pal": false,
-      "Rgr": false,
-      "Rog": false,
-      "Sor": true,
-      "Wiz": true
-    },
     "Untrained": "No",
     "Ability": "Int"
   },
   {
     "Skill": "Knowledge (dungeoneering)",
-    "Class Skill": {
-      "Bbn": false,
-      "Brd": true,
-      "Clr": false,
-      "Drd": false,
-      "Ftr": true,
-      "Mnk": false,
-      "Pal": false,
-      "Rgr": true,
-      "Rog": true,
-      "Sor": false,
-      "Wiz": true
-    },
     "Untrained": "No",
     "Ability": "Int"
   },
   {
     "Skill": "Knowledge (engineering)",
-    "Class Skill": {
-      "Bbn": false,
-      "Brd": true,
-      "Clr": false,
-      "Drd": false,
-      "Ftr": true,
-      "Mnk": false,
-      "Pal": false,
-      "Rgr": false,
-      "Rog": false,
-      "Sor": false,
-      "Wiz": true
-    },
     "Untrained": "No",
     "Ability": "Int"
   },
   {
     "Skill": "Knowledge (geography)",
-    "Class Skill": {
-      "Bbn": false,
-      "Brd": true,
-      "Clr": false,
-      "Drd": true,
-      "Ftr": false,
-      "Mnk": false,
-      "Pal": false,
-      "Rgr": true,
-      "Rog": false,
-      "Sor": false,
-      "Wiz": true
-    },
     "Untrained": "No",
     "Ability": "Int"
   },
   {
     "Skill": "Knowledge (history)",
-    "Class Skill": {
-      "Bbn": false,
-      "Brd": true,
-      "Clr": true,
-      "Drd": false,
-      "Ftr": false,
-      "Mnk": true,
-      "Pal": false,
-      "Rgr": false,
-      "Rog": false,
-      "Sor": false,
-      "Wiz": true
-    },
     "Untrained": "No",
     "Ability": "Int"
   },
   {
     "Skill": "Knowledge (local)",
-    "Class Skill": {
-      "Bbn": false,
-      "Brd": true,
-      "Clr": false,
-      "Drd": false,
-      "Ftr": false,
-      "Mnk": false,
-      "Pal": false,
-      "Rgr": false,
-      "Rog": true,
-      "Sor": false,
-      "Wiz": true
-    },
     "Untrained": "No",
     "Ability": "Int"
   },
   {
     "Skill": "Knowledge (nature)",
-    "Class Skill": {
-      "Bbn": true,
-      "Brd": true,
-      "Clr": false,
-      "Drd": true,
-      "Ftr": false,
-      "Mnk": false,
-      "Pal": false,
-      "Rgr": true,
-      "Rog": false,
-      "Sor": false,
-      "Wiz": true
-    },
     "Untrained": "No",
     "Ability": "Int"
   },
   {
     "Skill": "Knowledge (nobility)",
-    "Class Skill": {
-      "Bbn": false,
-      "Brd": true,
-      "Clr": true,
-      "Drd": false,
-      "Ftr": false,
-      "Mnk": false,
-      "Pal": true,
-      "Rgr": false,
-      "Rog": false,
-      "Sor": false,
-      "Wiz": true
-    },
     "Untrained": "No",
     "Ability": "Int"
   },
   {
     "Skill": "Knowledge (planes)",
-    "Class Skill": {
-      "Bbn": false,
-      "Brd": true,
-      "Clr": true,
-      "Drd": false,
-      "Ftr": false,
-      "Mnk": false,
-      "Pal": false,
-      "Rgr": false,
-      "Rog": false,
-      "Sor": false,
-      "Wiz": true
-    },
     "Untrained": "No",
     "Ability": "Int"
   },
   {
     "Skill": "Knowledge (religion)",
-    "Class Skill": {
-      "Bbn": false,
-      "Brd": true,
-      "Clr": true,
-      "Drd": false,
-      "Ftr": false,
-      "Mnk": true,
-      "Pal": true,
-      "Rgr": false,
-      "Rog": false,
-      "Sor": false,
-      "Wiz": true
-    },
     "Untrained": "No",
     "Ability": "Int"
   },
   {
     "Skill": "Linguistics",
-    "Class Skill": {
-      "Bbn": false,
-      "Brd": true,
-      "Clr": true,
-      "Drd": false,
-      "Ftr": false,
-      "Mnk": false,
-      "Pal": false,
-      "Rgr": false,
-      "Rog": true,
-      "Sor": false,
-      "Wiz": true
-    },
     "Untrained": "No",
     "Ability": "Int"
   },
   {
     "Skill": "Perception",
-    "Class Skill": {
-      "Bbn": true,
-      "Brd": true,
-      "Clr": false,
-      "Drd": true,
-      "Ftr": false,
-      "Mnk": true,
-      "Pal": false,
-      "Rgr": true,
-      "Rog": true,
-      "Sor": false,
-      "Wiz": false
-    },
     "Untrained": "Yes",
     "Ability": "Wis"
   },
   {
     "Skill": "Perform",
-    "Class Skill": {
-      "Bbn": false,
-      "Brd": true,
-      "Clr": false,
-      "Drd": false,
-      "Ftr": false,
-      "Mnk": true,
-      "Pal": false,
-      "Rgr": false,
-      "Rog": true,
-      "Sor": false,
-      "Wiz": false
-    },
     "Untrained": "Yes",
     "Ability": "Cha"
   },
   {
     "Skill": "Profession",
-    "Class Skill": {
-      "Bbn": false,
-      "Brd": true,
-      "Clr": true,
-      "Drd": true,
-      "Ftr": true,
-      "Mnk": true,
-      "Pal": true,
-      "Rgr": true,
-      "Rog": true,
-      "Sor": true,
-      "Wiz": true
-    },
     "Untrained": "No",
     "Ability": "Wis"
   },
   {
     "Skill": "Ride",
-    "Class Skill": {
-      "Bbn": true,
-      "Brd": false,
-      "Clr": false,
-      "Drd": true,
-      "Ftr": true,
-      "Mnk": true,
-      "Pal": true,
-      "Rgr": true,
-      "Rog": false,
-      "Sor": false,
-      "Wiz": false
-    },
     "Untrained": "Yes",
     "Ability": "Dex*"
   },
   {
     "Skill": "Sense Motive",
-    "Class Skill": {
-      "Bbn": false,
-      "Brd": true,
-      "Clr": true,
-      "Drd": false,
-      "Ftr": false,
-      "Mnk": true,
-      "Pal": true,
-      "Rgr": false,
-      "Rog": true,
-      "Sor": false,
-      "Wiz": false
-    },
     "Untrained": "Yes",
     "Ability": "Wis"
   },
   {
     "Skill": "Sleight of Hand",
-    "Class Skill": {
-      "Bbn": false,
-      "Brd": true,
-      "Clr": false,
-      "Drd": false,
-      "Ftr": false,
-      "Mnk": false,
-      "Pal": false,
-      "Rgr": false,
-      "Rog": true,
-      "Sor": false,
-      "Wiz": false
-    },
     "Untrained": "No",
     "Ability": "Dex*"
   },
   {
     "Skill": "Spellcraft",
-    "Class Skill": {
-      "Bbn": false,
-      "Brd": true,
-      "Clr": true,
-      "Drd": true,
-      "Ftr": false,
-      "Mnk": false,
-      "Pal": true,
-      "Rgr": true,
-      "Rog": false,
-      "Sor": true,
-      "Wiz": true
-    },
     "Untrained": "No",
     "Ability": "Int"
   },
   {
     "Skill": "Stealth",
-    "Class Skill": {
-      "Bbn": false,
-      "Brd": true,
-      "Clr": false,
-      "Drd": false,
-      "Ftr": false,
-      "Mnk": true,
-      "Pal": false,
-      "Rgr": true,
-      "Rog": true,
-      "Sor": false,
-      "Wiz": false
-    },
     "Untrained": "Yes",
     "Ability": "Dex*"
   },
   {
     "Skill": "Survival",
-    "Class Skill": {
-      "Bbn": true,
-      "Brd": false,
-      "Clr": false,
-      "Drd": true,
-      "Ftr": true,
-      "Mnk": false,
-      "Pal": false,
-      "Rgr": true,
-      "Rog": false,
-      "Sor": false,
-      "Wiz": false
-    },
     "Untrained": "Yes",
     "Ability": "Wis"
   },
   {
     "Skill": "Swim",
-    "Class Skill": {
-      "Bbn": true,
-      "Brd": false,
-      "Clr": false,
-      "Drd": true,
-      "Ftr": true,
-      "Mnk": true,
-      "Pal": false,
-      "Rgr": true,
-      "Rog": true,
-      "Sor": false,
-      "Wiz": false
-    },
     "Untrained": "Yes",
     "Ability": "Str*"
   },
   {
     "Skill": "Use Magic Device",
-    "Class Skill": {
-      "Bbn": false,
-      "Brd": true,
-      "Clr": false,
-      "Drd": false,
-      "Ftr": false,
-      "Mnk": false,
-      "Pal": false,
-      "Rgr": false,
-      "Rog": true,
-      "Sor": true,
-      "Wiz": false
-    },
     "Untrained": "No",
     "Ability": "Cha"
   }
