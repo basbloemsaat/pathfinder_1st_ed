@@ -1,25 +1,25 @@
 import pytest
 
 from character import Character
-from race import RaceEnum
+from race import Races
 from ability import AbilityScores
-from character_class import ClassEnum
+from character_class import Classes
+
+from categories import Alignments
+from level import Level
 
 
 def test_character_creation():
-    from alignment import AlignmentEnum
-    from level import Level
-
     abilities = AbilityScores()
     char = Character(
         name="TestName",
-        race=RaceEnum.HUMAN,
+        race=Races.HUMAN,
         abilities=abilities,
-        levels=[Level(class_=ClassEnum.FIGHTER.value)],
-        alignment=AlignmentEnum.TRUE_NEUTRAL,
+        levels=[Level(class_=Classes.FIGHTER.value)],
+        alignment=Alignments.TRUE_NEUTRAL,
     )
     assert char.name == "TestName"
-    assert char.race == RaceEnum.HUMAN
+    assert char.race == Races.HUMAN
     assert char.levels[0].class_.name == "Fighter"
     # Test abilities default
     assert hasattr(char, "abilities")
@@ -33,30 +33,24 @@ def test_character_creation():
 
 
 def test_character_invalid_race():
-    from alignment import AlignmentEnum
-    from level import Level
-
     abilities = AbilityScores()
     with pytest.raises(ValueError):
         Character(
             name="TestName",
-            race=RaceEnum("INVALID"),
+            race=Races("INVALID"),
             abilities=abilities,
-            levels=[Level(class_=ClassEnum.FIGHTER.value)],
-            alignment=AlignmentEnum.TRUE_NEUTRAL,
+            levels=[Level(class_=Classes.FIGHTER.value)],
+            alignment=Alignments.TRUE_NEUTRAL,
         )
 
 
 def test_character_invalid_class():
-    from alignment import AlignmentEnum
-    from level import Level
-
     abilities = AbilityScores()
     with pytest.raises(ValueError):
         Character(
             name="TestName",
-            race=RaceEnum.HUMAN,
+            race=Races.HUMAN,
             abilities=abilities,
             levels=[Level(class_="INVALID")],
-            alignment=AlignmentEnum.TRUE_NEUTRAL,
+            alignment=Alignments.TRUE_NEUTRAL,
         )

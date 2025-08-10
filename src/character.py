@@ -1,24 +1,24 @@
 from pydantic import BaseModel, model_validator
-from race import RaceEnum
+from race import Races
 from ability import AbilityScores
 from typing_extensions import Self
-from alignment import AlignmentEnum
+from categories import Alignments
 from level import Level
 from exceptions import AlignmentError
 
 
 class Character(BaseModel, validate_assignment=True):
     name: str
-    race: RaceEnum
+    race: Races
     abilities: AbilityScores
     levels: list[Level] = []
-    alignment: AlignmentEnum
+    alignment: Alignments
 
     @model_validator(mode="after")
     def validate_alignment(self) -> Self:
         """Validate the character's alignment."""
 
-        allowed_alignments = set(AlignmentEnum)
+        allowed_alignments = set(Alignments)
 
         for level in self.levels:
             if level.class_.allowed_alignments == set():
