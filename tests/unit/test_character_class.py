@@ -1,4 +1,4 @@
-from character_class import CharacterClass, Classes, character_classes
+from character_class import CharacterClass, Class_, character_classes
 
 
 def test_character_class_fields():
@@ -25,7 +25,7 @@ def test_character_classes_dict():
 def test_class_enum_members():
     # Ensure all ClassEnum members are present in character_classes and are CharacterClass instances
 
-    for member in Classes:
+    for member in Class_:
         # The value of each member should be a CharacterClass instance
         assert isinstance(member.value, CharacterClass)
         # The name of the class should be in character_classes

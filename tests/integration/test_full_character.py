@@ -1,11 +1,11 @@
 import pytest
 from character import Character
-from race import Races
+from race import Race_
 from ability import AbilityScores
 
-from character_class import Classes
+from character_class import Class_
 import exceptions
-from categories import Alignments
+from categories import Alignment
 from level import Level
 
 
@@ -13,10 +13,10 @@ from level import Level
 def character() -> Character:
     character = Character(
         name="Qarsus",
-        race=Races.HUMAN,
+        race=Race_.HUMAN,
         abilities=AbilityScores(),
-        levels=[Level(class_=Classes.DRUID.value)],
-        alignment=Alignments.TRUE_NEUTRAL,
+        levels=[Level(class_=Class_.DRUID.value)],
+        alignment=Alignment.TRUE_NEUTRAL,
     )
     character.abilities.str.score = 16
     character.abilities.dex.score = 14
@@ -30,7 +30,7 @@ def character() -> Character:
 
 def test_character_base(character: Character):
     assert character.name == "Qarsus"
-    assert character.race == Races.HUMAN
+    assert character.race == Race_.HUMAN
 
 
 def test_character_abilities(character: Character):
@@ -64,9 +64,9 @@ def test_character_class(character: Character):
     assert druid.hit_die == "d8"
 
     assert druid.allowed_alignments == {
-        Alignments.NEUTRAL_GOOD,
-        Alignments.TRUE_NEUTRAL,
-        Alignments.NEUTRAL_EVIL,
+        Alignment.NEUTRAL_GOOD,
+        Alignment.TRUE_NEUTRAL,
+        Alignment.NEUTRAL_EVIL,
     }
     assert "Handle Animal" in druid.class_skills
     assert "Spellcraft" in druid.class_skills
@@ -77,4 +77,4 @@ def test_character_class(character: Character):
 
 def test_character_invalid_alignment(character: Character):
     with pytest.raises(exceptions.AlignmentError):
-        character.alignment = Alignments.LAWFUL_GOOD
+        character.alignment = Alignment.LAWFUL_GOOD

@@ -1,11 +1,11 @@
 import pytest
 
 from character import Character
-from race import Races
+from race import Race_
 from ability import AbilityScores
-from character_class import Classes
+from character_class import Class_
 
-from categories import Alignments
+from categories import Alignment
 from level import Level
 
 
@@ -13,13 +13,13 @@ def test_character_creation():
     abilities = AbilityScores()
     char = Character(
         name="TestName",
-        race=Races.HUMAN,
+        race=Race_.HUMAN,
         abilities=abilities,
-        levels=[Level(class_=Classes.FIGHTER.value)],
-        alignment=Alignments.TRUE_NEUTRAL,
+        levels=[Level(class_=Class_.FIGHTER.value)],
+        alignment=Alignment.TRUE_NEUTRAL,
     )
     assert char.name == "TestName"
-    assert char.race == Races.HUMAN
+    assert char.race == Race_.HUMAN
     assert char.levels[0].class_.name == "Fighter"
     # Test abilities default
     assert hasattr(char, "abilities")
@@ -37,10 +37,10 @@ def test_character_invalid_race():
     with pytest.raises(ValueError):
         Character(
             name="TestName",
-            race=Races("INVALID"),
+            race=Race_("INVALID"),
             abilities=abilities,
-            levels=[Level(class_=Classes.FIGHTER.value)],
-            alignment=Alignments.TRUE_NEUTRAL,
+            levels=[Level(class_=Class_.FIGHTER.value)],
+            alignment=Alignment.TRUE_NEUTRAL,
         )
 
 
@@ -49,8 +49,8 @@ def test_character_invalid_class():
     with pytest.raises(ValueError):
         Character(
             name="TestName",
-            race=Races.HUMAN,
+            race=Race_.HUMAN,
             abilities=abilities,
             levels=[Level(class_="INVALID")],
-            alignment=Alignments.TRUE_NEUTRAL,
+            alignment=Alignment.TRUE_NEUTRAL,
         )

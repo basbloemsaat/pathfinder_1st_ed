@@ -1,7 +1,7 @@
 from enum import Enum
 
 
-class Alignments(str, Enum):
+class Alignment(str, Enum):
     LAWFUL_GOOD = "Lawful Good"
     NEUTRAL_GOOD = "Neutral Good"
     CHAOTIC_GOOD = "Chaotic Good"
@@ -13,7 +13,7 @@ class Alignments(str, Enum):
     CHAOTIC_EVIL = "Chaotic Evil"
 
 
-class Sizes(str, Enum):
+class Size(str, Enum):
     FINE = "Fine"
     DIMINUTIVE = "Diminutive"
     TINY = "Tiny"
