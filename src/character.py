@@ -14,6 +14,9 @@ class Character(BaseModel, validate_assignment=True):
     levels: list[Level] = []
     alignment: Alignment
 
+    # todo: inventory
+    # todo: equipment / loadouts / weapons
+
     @model_validator(mode="after")
     def validate_alignment(self) -> Self:
         """Validate the character's alignment."""

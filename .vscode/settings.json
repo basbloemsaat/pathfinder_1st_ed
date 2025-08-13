@@ -1,9 +1,17 @@
 {
   "python.analysis.extraPaths": ["./src"],
   "cSpell.words": [
+    "darkvision",
+    "dispellable",
+    "extradimensional",
+    "glamer",
+    "glamers",
     "Greataxe",
     "Qarsus",
-    "Spellcraft"
+    "spellcaster",
+    "Spellcraft",
+    "Subschools",
+    "unlife"
   ],
   "python.testing.pytestArgs": ["tests"],
   "python.testing.unittestEnabled": false,

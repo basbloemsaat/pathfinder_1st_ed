@@ -4,6 +4,23 @@ Gear, magic items, and other equipment. Weapons, armor, and adventuring gear fal
 """
 
 from pydantic import BaseModel
+from enum import StrEnum
+
+
+class WearLocation(StrEnum):
+    HEAD = "head"
+    HEADBAND = "headband"
+    EYES = "eyes"
+    SHOULDERS = "shoulders"
+    NECK = "neck"
+    CHEST = "chest"
+    BODY = "body"
+    ARMOR = "armor"
+    BELT = "belt"
+    WRIST = "wrist"
+    HANDS = "hands"
+    FINGER = "finger"
+    FEET = "feet"
 
 
 class Item(BaseModel):
@@ -12,7 +29,7 @@ class Item(BaseModel):
     item_type: str
     weight: float
     value: float
-    properties: dict
+    location: WearLocation | None = None
 
 
 class Weapon(Item):
@@ -28,5 +45,5 @@ class Armor(Item):
     armor_type: str
 
 
-class MagicWeapon(Weapon):
-    magic_bonus: int
+class MagicItem(BaseModel):
+    school: str
