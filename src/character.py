@@ -5,6 +5,7 @@ from typing_extensions import Self
 from categories import Alignment
 from level import Level
 from exceptions import AlignmentError
+from inventory import Inventory
 
 
 class Character(BaseModel, validate_assignment=True):
@@ -13,6 +14,7 @@ class Character(BaseModel, validate_assignment=True):
     abilities: AbilityScores
     levels: list[Level] = []
     alignment: Alignment
+    inventory: Inventory = Inventory()
 
     # todo: inventory
     # todo: equipment / loadouts / weapons
