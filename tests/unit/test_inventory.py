@@ -14,7 +14,7 @@ def test_inventory_with_items():
         description="A sturdy rope.",
         item_type="gear",
         weight=2.0,
-        value=1.0,
+        cost=1.0,
         location=None,
     )
     inv = Inventory(items=[item])

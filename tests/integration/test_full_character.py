@@ -78,3 +78,9 @@ def test_character_class(character: Character):
 def test_character_invalid_alignment(character: Character):
     with pytest.raises(exceptions.AlignmentError):
         character.alignment = Alignment.LAWFUL_GOOD
+
+
+def test_character_empty_inventory(character: Character):
+    assert character.inventory.items == []
+
+

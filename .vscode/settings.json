@@ -17,5 +17,5 @@
   "python.testing.unittestEnabled": false,
   "python.testing.pytestEnabled": true,
 
-  "jupyter.notebookFileRoot": "${workspaceFolder}/src"
+  "jupyter.notebookFileRoot": "${workspaceFolder}"
 }
